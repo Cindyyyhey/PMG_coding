@@ -22,7 +22,7 @@ class csv_c:
             print("ERROR: missing input file name")
             return False
 
-        # remove the first element because it stores the current file name
+        # remove the first element because it is the name of the program itself
         # the remaining arguments are our input file names
         combine_files = combine_files[1:]
 
